@@ -1,10 +1,9 @@
 {
+  "buildCommand": "echo 'No build required'",
+  "outputDirectory": ".",
   "functions": {
-    "api/download.js": {
+    "api/*.js": {
       "maxDuration": 60
-    },
-    "api/info.js": {
-      "maxDuration": 30
     }
   }
 }
